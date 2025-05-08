@@ -1,13 +1,12 @@
-### Clases para uso de Git
-###### - [Clase 1](#clase-1)
-###### - [Clase 2](#clase-2)
-###### - [Clase 3](#clase-3)
-###### - [Clase 4](#clase-4)
-###### - [Clase 5](#clase-5)
+## Clases para uso de Git
+### Indice
+1. [Clase 1](#clase-1)
+2. [Clase 2](#clase-2)
+3. [Clase 3](#clase-3)
+4. [Clase 4](#clase-4)
+5. [Clase 5](#clase-5)
 
----
-
-### Clase 1
+## Clase 1
 
 Lo que vimos en la clase anterior:
 
@@ -65,8 +64,7 @@ Abrimos la terminal de Git Bash en Window o la terminal de Ubuntu, tambien la te
 
 `mkdir JavaScript`
 
----
-### Clase 2
+## Clase 2
 
 Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador
 
@@ -141,8 +139,7 @@ Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hace
 
 `git log historia.txt #Vemos toda la historia de este archivo, el número largo es el hash del commit`
 
----
-### Clase 3
+## Clase 3
 
 Ingresamos de la siguiente manera:
 
@@ -196,9 +193,8 @@ Empezamos a cargar lo visto en las clases anteriores (Comandos) en el README y p
 
 `cd ..`
 
----
 
-### Clase 4
+## Clase 4
 
 Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador, en terminal también o usar sudo para permisos especiales.
 
@@ -276,9 +272,7 @@ Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hace
 
 `cd ..`
 
----
-
-### Clase 5
+## Clase 5
 
 ¿Qué es el staging?
 
@@ -288,7 +282,7 @@ Tienes una carpeta donde están los archivos de tu proyecto o un directorio y al
 Entonces tenemos el área de trabajo, cuando colocamos git add historia.txt pasamos al staging o área de preparación, que hay que recordar que esto es en la memoria ram y luego con git commit -m "Mensaje" pasa al repositorio en la rama master, allí se genera un nombre llenos de letras y números, es el hash, el nombre del commit.
 
 
-![alt text](./assets/image.png)
+![git flow](./assets/image.png)
 
 ¿Qué es Gitflow? Gitflow es un modelo alternativo de creación de ramas en Git en el que se utilizan ramas de función y varias ramas principales. Fue Vincent Driessen en nvie quien lo publicó por primera vez y quien lo popularizó.
 
